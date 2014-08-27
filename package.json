@@ -1,0 +1,28 @@
+{
+  "name": "testapp",
+  "version": "0.0.1",
+  "description": "Simple node application",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/xhawk/testapp.git"
+  },
+  "keywords": [
+    "nodejs",
+    "gulp",
+    "watch"
+  ],
+  "author": "Tomi Savolainen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xhawk/testapp/issues"
+  },
+  "homepage": "https://github.com/xhawk/testapp",
+  "devDependencies": {
+    "gulp": "^3.8.7"
+  }
+}
