@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/xhawk/testapp",
   "devDependencies": {
-    "gulp": "^3.8.7"
+    "gulp": "^3.8.7",
+    "forever": "latest"
   }
 }
