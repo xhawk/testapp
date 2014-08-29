@@ -31,7 +31,7 @@ gulp.task('default', function() {
 /**
  * TODO: gulp seed task to initialize database
  */
-gulp.taks('seed', function() {
+gulp.task('seed', function() {
   console.log("Seed not implemented");
 })
 
