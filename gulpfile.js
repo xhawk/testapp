@@ -10,7 +10,7 @@ gulp.task('server', function() {
   node = spawn('node', ['server.js'], {stdio: 'inherit'});
   node.on('close', function (code) {
     if (code === 8) {
-      gulp.log('Error detected, waiting for changes...');
+      console.log('Error detected, waiting for changes...');
     }
   });
 });
@@ -27,6 +27,13 @@ gulp.task('default', function() {
   });
 
 });
+
+/**
+ * TODO: gulp seed task to initialize database
+ */
+gulp.taks('seed', function() {
+  console.log("Seed not implemented");
+})
 
 // clean up if an error goes unhandled.
 process.on('exit', function() {
